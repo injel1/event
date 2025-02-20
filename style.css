@@ -1,0 +1,42 @@
+body, html {
+    margin: 0; 
+    padding: 0;
+    height: 100%; 
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-image: url('baby.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    height: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+    color: white;
+}
+
+h1 { 
+    font-size: 3em; 
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center; 
+    color: #ddd; 
+    font-size: 1em;
+}
